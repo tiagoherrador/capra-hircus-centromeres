@@ -3,7 +3,7 @@ message: "If you use this case study, please cite it as below."
 title: "Centromeric heterochromatin of Capra hircus: a sequence-based case study with public data"
 type: software
 authors:
-  - family-names: "Alejo"
+  - family-names: "Alejo Herrador"
     given-names: "Tiago"
 license: MIT
 repository-code: "https://github.com/tiagoherrador/capra-hircus-centromeres"
