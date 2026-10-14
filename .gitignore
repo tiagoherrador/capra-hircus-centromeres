@@ -1,0 +1,17 @@
+# Large or regenerable files (see README, "Reproducibility")
+data/raw_ncbi/
+data/reads
+data/reads/
+work/
+tools/
+
+# Environments and caches
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Logs and local files
+*.log
+jupyter.out
+.DS_Store
+*.gdoc
