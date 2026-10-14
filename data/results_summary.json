@@ -16,5 +16,8 @@
   "H3_n": 18,
   "H3_p_permutation_absolute": 5.340576171875e-05,
   "H3_median_abs_diff_centromere_Mb": 2.6712,
-  "H3_median_abs_diff_rest_Mb": 0.106861
+  "H3_median_abs_diff_rest_Mb": 0.106861,
+  "n_low_satellite_blocks": 3,
+  "H3_n_without_low_satellite": 16,
+  "H3_p_permutation_without_low_satellite": 1.52587890625e-05
 }
