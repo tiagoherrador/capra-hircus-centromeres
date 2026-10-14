@@ -1,0 +1,72 @@
+---
+title: "Why CENP-A ChIP-seq was removed from the analysis"
+subtitle: "Centromeric heterochromatin of *Capra hircus* — methodological note"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Summary
+
+The original design proposed to **delimit the centromeres by integrating three signals**: CENP-A enrichment (ChIP-seq), satellite density and low sequence complexity. When this was carried out with public data, the ChIP-seq **did not provide usable information** and was removed from the analysis workflow. Centromeres are now delimited **by the density of SatI–III satellites only**, as an operational definition.
+
+This note explains why, what it implies, and what would be needed to bring it back.
+
+## 1. Data available
+
+| | |
+|---|---|
+| Animal | male `IMCG_204112` (Wu et al. 2024, *Nat Commun* 15:10041) |
+| Antibody | Phospho-CENP-A (Ser7) |
+| Public runs | IP `SRR29611990` (~80 M read pairs) and input `SRR29611985` (~124 M read pairs), Illumina |
+| Used | **2 million pairs** of each (the ENA server delivers ~0.5 MB/s per connection) |
+
+## 2. What was found
+
+The reads were mapped to the satellite units and the fraction of reads falling in each family was compared between IP and input. If CENP-A were on the satellites, the IP should be **enriched** relative to the input (ratio > 1).
+
+```{r result}
+chip <- data.frame(
+  family          = c("SatI", "SatII", "SatIII"),
+  frac_IP         = c(0.0536, 0.0345, 0.000002),
+  frac_input      = c(0.0592, 0.0337, 0.000002),
+  enrichment      = c(0.91, 1.02, 0.67)
+)
+knitr::kable(chip, digits = 4,
+             caption = "Fraction of reads in each satellite family (IP vs input)")
+```
+
+**Reading:** no family is enriched (SatI 0.91×; SatII 1.02×). SatIII has so few reads that its ratio cannot be interpreted. With ~100–200 thousand reads in SatI and SatII, a true difference of 2× or more would have been seen.
+
+> These values were computed with an earlier unit classification in which "SatII" included units later recognised as SatIII. The conclusion (no family is enriched) does not change, but the per-family figures should not be cited.
+
+## 3. Why it cannot be used to delimit centromeres
+
+1. **Short reads on almost identical arrays.** Satellite arrays on different chromosomes are very similar. A 150-bp read fits equally well in any of them, so **it is impossible to say which chromosome it comes from**. Without that there is no per-chromosome enrichment profile, which is what is needed to mark where each centromere starts and ends.
+2. **Too little depth for peaks.** With 2 million pairs there is not enough signal to see enrichment peaks, even in the unique-sequence flanks.
+3. **Disproportionate cost to recover it.** Doing it properly would require downloading the full runs (about 11 + 18 GB compressed, ~200 million pairs between IP and input) and mapping to the whole genome keeping only uniquely mapped reads. At ~0.5 MB/s this is **more than 15 hours of download**, plus compute, to delimit a signal that is already available directly.
+4. **Redundant signal.** Satellite density delimits each centromeric block clearly (sharp edges, no large gaps). With it the lengths needed for H1, H2 and H3 are obtained.
+
+None of this contradicts the paper: Wu et al. report CENP-A peaks on specific chromosomes (for example, tied to SatII on CHI22, CHI28 and the X), and that kind of **per-chromosome** result cannot be seen with a family-level analysis like this one. It was also not checked whether the antibody (phospho-Ser7) alone explains the weak signal.
+
+## 4. What changes for the project
+
+- **Centromere definition.** It is the satellite block with the most sequence in the proximal window (merging intervals closer than 500 kb). It is an **operational**, not a functional, definition: it can be **longer** than the CENP-A domain. In fact the lengths obtained reach ~10.4 Mb, whereas the paper reports 0.6–8.51 Mb for its CENP-A-defined centromere.
+- **Limitation to declare.** Centromere lengths are lengths of the **satellite domain**, not of the functional CENP-A domain; the scaling results (H1) must be interpreted with that caveat.
+
+## 5. What would be needed to bring it back (optional)
+
+- Download the full IP and input runs (~29 GB compressed).
+- Map to the complete genome (the index of a 2.9-Gb genome takes several GB of RAM) keeping only reads with a **unique mapping** (high MAPQ).
+- Compute the IP/input ratio in 10–50 kb windows and look for peaks in the unique-sequence regions that flank the arrays; compare them with the edges of the satellite block.
+- Validate against the per-chromosome peaks reported by Wu et al.
+
+## 6. What was done with the files
+
+No analysis uses ChIP-seq any more, so the downloaded reads (`SRR29611990` IP and `SRR29611985` input, ~520 MB) and the enrichment table were **deleted** from the working folder. The values of the result are recorded in section 2 of this note. If ChIP-seq were to be resumed, the runs can be downloaded again from ENA (BioProject `PRJNA1062519`).
