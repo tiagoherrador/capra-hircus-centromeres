@@ -1,0 +1,10 @@
+type,id,file,bytes,md5,source,download_date
+assembly,T2T,GCA_041735815.1_T2T-goat2.0_genomic.fna.gz,864736541,87c5212a7acb095d1d9358c67e3c952e,https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/041/735/815/GCA_041735815.1_T2T-goat2.0/,2026-10-14
+assembly,P,GCA_041053135.1_T2T-goat2.0P_genomic.fna.gz,817583353,9e4880b5d6ecd19ac677b400f17eaec6,https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/041/053/135/GCA_041053135.1_T2T-goat2.0P/,2026-10-14
+assembly,M,GCA_040970035.1_T2T-goat2.0M_genomic.fna.gz,852594322,b5c25a68070fff3eec4f5258a2534546,https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/040/970/035/GCA_040970035.1_T2T-goat2.0M/,2026-10-14
+reads,SRR29611984,SRR29611984_Boer_goat.subreads.fastq.gz,309738471,05a311a662f14a7a9e3da0c1105258b1,https://www.ebi.ac.uk/ena/browser/view/SRR29611984,2026-10-14
+reads,SRR29612035,SRR29612035_IMCG_204112.subreads.fastq.gz,405565686,16ccaf7481d92d8abca6af4f3427b817,https://www.ebi.ac.uk/ena/browser/view/SRR29612035,2026-10-14
+reads,SRR29611983,SRR29611983_Jining_gray_goat.subreads.fastq.gz,396027212,ff52babddf32d87c3e1a152d4e2dcb3e,https://www.ebi.ac.uk/ena/browser/view/SRR29611983,2026-10-14
+reads,SRR29611982,SRR29611982_Liaoning_cashmere_goat.subreads.fastq.gz,366619707,ce0ffffaddc3fa04bb113c442a52e99e,https://www.ebi.ac.uk/ena/browser/view/SRR29611982,2026-10-14
+reads,SRR29612031,SRR29612031_Tibetan_goat.subreads.fastq.gz,149716689,1bccbae7da8008b999a98b7d0da5164e,https://www.ebi.ac.uk/ena/browser/view/SRR29612031,2026-10-14
+reads,SRR29612034,SRR29612034_Zhongwei_goat.subreads.fastq.gz,359050237,945f3722f76295c4564e8de36725cb32,https://www.ebi.ac.uk/ena/browser/view/SRR29612034,2026-10-14

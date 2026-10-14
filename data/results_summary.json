@@ -1,0 +1,20 @@
+{
+  "n_chromosomes_T2T": 30,
+  "centromere_min_Mb": 0.8528,
+  "centromere_max_Mb": 10.3755,
+  "shortest_centromere_chromosome": "CHIX",
+  "H1_slope": -0.11661433282533343,
+  "H1_CI95": "[-0.80, 0.57]",
+  "H1_CI95_boot": "[-0.81, 0.38]",
+  "H1_p_slope_0": 0.7384080953687185,
+  "H1_p_interaction_P_M": 0.6432414100880357,
+  "H1_min_detectable_slope_without_X": 0.394399348905976,
+  "H1_min_detectable_slope_with_X": 0.6622373892238271,
+  "H2_delta_R2_ratio": 0.7327483620539236,
+  "H2_p_F": "< 1e-4",
+  "H2_delta_R2_without_X": 0.2534105610718247,
+  "H3_n": 18,
+  "H3_p_permutation_absolute": 5.340576171875e-05,
+  "H3_median_abs_diff_centromere_Mb": 2.6712,
+  "H3_median_abs_diff_rest_Mb": 0.106861
+}

@@ -1,0 +1,7 @@
+run_accession,type,individual,instrument_platform,library_strategy,Gb,fastq_ftp
+SRR29611984,PacBio,Boer goat,PACBIO_SMRT,WGS,52.715140669,ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/084/SRR29611984/SRR29611984_subreads.fastq.gz
+SRR29612035,PacBio,IMCG_204112,PACBIO_SMRT,WGS,117.772900513,ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/035/SRR29612035/SRR29612035_subreads.fastq.gz
+SRR29611983,PacBio,Jining gray goat,PACBIO_SMRT,WGS,75.160629291,ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/083/SRR29611983/SRR29611983_subreads.fastq.gz
+SRR29611982,PacBio,Liaoning cashmere goat,PACBIO_SMRT,WGS,76.010371493,ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/082/SRR29611982/SRR29611982_subreads.fastq.gz
+SRR29612031,PacBio,Tibetan goat,PACBIO_SMRT,WGS,80.914747765,ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/031/SRR29612031/SRR29612031_subreads.fastq.gz
+SRR29612034,PacBio,Zhongwei goat,PACBIO_SMRT,WGS,69.862470924,ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/034/SRR29612034/SRR29612034_subreads.fastq.gz

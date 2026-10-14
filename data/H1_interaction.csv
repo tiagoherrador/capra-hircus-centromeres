@@ -1,0 +1,2 @@
+model,n,slope_P,slope_diff_M_minus_P,CI95_diff,p_interaction,R2_adj
+"lcen ~ lrest * hap (P vs M, complete autosomes)",44,0.3357932297864032,-0.14147705278929978,"[-0.74, 0.46]",0.6432414100880357,0.06215922083520109

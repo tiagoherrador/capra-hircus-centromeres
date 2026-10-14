@@ -1,0 +1,2 @@
+X_length_bp,block_start_bp,block_end_bp,block_satellite_bp,fraction_from_end,satellite_blocks_ge30kb,SRF_units_on_X,SatII_bp,SatI_bp,SatIII_bp,PAR_X_start,PAR_X_end,PAR_Y_start,PAR_Y_end,PAR_identity,genes_X,genes_per_Mb_X,genes_per_Mb_first7Mb,X_haplotypeM_collinear_bp,X_haplotypeM_strand
+144688805,7232600,8085400,638500,0.049987281324218556,1,4,592100,46800,0,11559,7040084,18907,7019947,0.8921668713274054,1226,8.473357700341777,8.857142857142858,144682385,+

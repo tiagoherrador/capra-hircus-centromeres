@@ -1,0 +1,2 @@
+n_chromosomes,median_abs_diff_centromere,median_abs_diff_rest,SD_diff_centromere,SD_diff_rest,p_wilcoxon_centromere_greater,median_abs_diff_centromere_Mb,median_abs_diff_rest_Mb,p_permutation_absolute
+18,0.37094343215034875,0.0011976849013280296,0.7934801879482968,0.0062121711748176715,3.814697265625e-06,2.6712,0.106861,5.340576171875e-05
