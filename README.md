@@ -48,7 +48,7 @@ The goat chromosomes are acrocentric, so each centromere should be near one end.
 SRF counts frequent 151-mers and assembles them into repeat units. It found 21 units. They are grouped by sequence into SatI (816-bp monomer), SatII (702 bp) and SatIII (a 22-bp motif). A first version classified units by length only, and it counted units of 132, 770 and 2115 bp as SatII even though they are mostly repeats of the SatIII motif. Classifying by sequence brought the SatII total from about 33 Mb to about 26 Mb, in line with the paper. The units are then mapped back to each chromosome with minimap2, without base-level alignment, and each 100-bp bin is assigned to its best hit.
 
 ### 4. What is a centromere here?
-It is the satellite block with the most sequence in the proximal window, after merging pieces closer than 500 kb. This is an operational definition. It marks the satellite domain and not the CENP-A domain, so it can be longer than published values. CENP-A ChIP-seq was tried. The public reads cannot be assigned to single chromosomes because the arrays are nearly identical across chromosomes, and a proper analysis needs about 29 GB of downloads, so it was dropped ([why](docs/NOTE_chipseq_removed.Rmd)).
+It is the satellite block with the most sequence in the proximal window, after merging pieces closer than 500 kb. This is an operational definition. It marks the satellite domain and not the CENP-A domain, so it can be longer than published values. CENP-A ChIP-seq was tried on a subsample of 2 million read pairs and showed no enrichment in any satellite family. Doing it per chromosome would need the full runs (about 29 GB) and unique mapping, because short reads inside nearly identical arrays cannot be assigned to a chromosome. It was dropped for that cost, not because it is impossible ([details](docs/NOTE_chipseq_removed.Rmd)).
 
 ![Composition of each centromeric block](data/figures/composition_by_chromosome.png)
 
@@ -85,7 +85,7 @@ The Tibetan run stands out for two reasons. About 12.5 % of its reads carry SatI
 ## Limitations
 
 - One animal. P and M are the two haplotypes of the same individual, not two individuals, and the differences between them may include assembly artefacts.
-- Operational centromere. It is the satellite domain, not the functional CENP-A domain, and includes some non-satellite sequence. H3 uses the block length, and the check with satellite only is pending.
+- Operational centromere. It is the satellite domain, not the functional CENP-A domain, and includes some non-satellite sequence. It could not be validated with CENP-A data. H3 uses the block length, and the check with satellite only is pending.
 - Haplotype M. Three blocks look incomplete, and the cause of CHI9 is not resolved.
 - SatIII, a 22-bp motif, is poorly detected by alignment.
 - Breeds. PacBio CLR subreads at about 0.17× coverage, genome-wide fractions only, and SatIII is not measured.
