@@ -19,5 +19,24 @@
   "H3_median_abs_diff_rest_Mb": 0.106861,
   "n_low_satellite_blocks": 3,
   "H3_n_without_low_satellite": 16,
-  "H3_p_permutation_without_low_satellite": 1.52587890625e-05
+  "H3_p_permutation_without_low_satellite": 1.52587890625e-05,
+  "screening_assemblies": 20,
+  "screening_resolved_KikoP": 29,
+  "screening_resolved_SaanenM": 27,
+  "screening_resolved_best_other": 17,
+  "H1_two_animals_slope_autosomes_pooled": 0.2947219826926801,
+  "H1_two_animals_CI95_autosomes_pooled": "[0.10, 0.49]",
+  "H1_two_animals_slope_with_X_pooled": 0.0020389997606929944,
+  "H1_two_animals_slope_difference_between_animals": 7.744290183892e-05,
+  "H3_second_animal_median_centromere_Mb": 1.17075,
+  "H3_second_animal_median_rest_Mb": 0.17514849999999998,
+  "H3_second_animal_p_permutation_absolute": 0.030139849300753495,
+  "H3_second_animal_p_permutation_absolute_without_three_chromosomes": 0.16835415822920885,
+  "H3_both_animals_pairs": 44,
+  "H3_both_animals_p_permutation_absolute": 5.9999700001499995e-05,
+  "within_between_median_abs_ln_ratio": {
+    "between animals": 0.213,
+    "within IMCG": 0.38,
+    "within Kiko×Saanen": 0.166
+  }
 }

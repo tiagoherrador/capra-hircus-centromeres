@@ -14,7 +14,8 @@ keywords:
   - telomere-to-telomere assembly
   - bioinformatics
 abstract: >-
-  A personal portfolio case study that analyses the centromeric satellite DNA of the
-  telomere-to-telomere goat genome (Wu et al. 2024): scaling of centromere length with
-  chromosome size, satellite composition, differences between haplotypes, and
-  exploratory variation between breeds. It was then extended to a second animal after screening 20 public assemblies. Code under MIT; text and figures under CC BY 4.0.
+  A personal portfolio case study of the centromeric satellite DNA of public goat genomes.
+  The T2T-goat2.0 assembly is the reference, 20 other public assemblies are screened against it,
+  and the two animals with resolved centromeres are used to test the scaling of centromere
+  length with chromosome size, satellite composition and differences between homologs, with an
+  exploratory look at variation between breeds. Code under MIT; text and figures under CC BY 4.0.

@@ -1,9 +1,9 @@
 """Run the notebook cell by cell, saving progress and a readable log.
 Usage (from the repository root): python scripts/run_notebook.py [first_cell] [notebook.ipynb]
-Default notebook: notebooks/01_one_animal.ipynb. Writes run.log and <notebook>_executed.ipynb."""
+Default notebook: notebooks/01_reference_assembly.ipynb. Writes run.log and <notebook>_executed.ipynb."""
 import sys, time, nbformat
 from nbclient import NotebookClient
-nbfile = sys.argv[2] if len(sys.argv) > 2 else 'notebooks/01_one_animal.ipynb'
+nbfile = sys.argv[2] if len(sys.argv) > 2 else 'notebooks/01_reference_assembly.ipynb'
 start = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 out_file = nbfile.replace('.ipynb', '_executed.ipynb')
 nb = nbformat.read(nbfile, as_version=4)
