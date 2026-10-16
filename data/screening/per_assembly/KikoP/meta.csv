@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+KikoP,GCA_057428595.1,Kiko paternal haplotype,Chromosome,Kiko x Saanen,female,University of Idaho,Oxford Nanopore; PacBio; Illumina,106.3,33,2.89

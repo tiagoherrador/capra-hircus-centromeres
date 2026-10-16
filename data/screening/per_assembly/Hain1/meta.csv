@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+Hain1,GCA_047671635.1,ASM4767163v1,Chromosome,Hainan black Goat,female,Northwest A&F University,PacBio Sequel,94.8,149,2.9

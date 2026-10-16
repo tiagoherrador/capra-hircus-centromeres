@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+SaanenM,GCA_057428545.1,Saanen maternal haplotype,Chromosome,Kiko x Saanen,female,University of Idaho,Oxford Nanopore; PacBio; Illumina,115.1,36,2.9

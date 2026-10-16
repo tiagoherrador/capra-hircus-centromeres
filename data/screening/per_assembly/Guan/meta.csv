@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+Guan,GCA_044588015.1,ASM4458801v1,Chromosome,Guanzhong Milk Goat,female,Northwest A&F University,PacBio Sequel,79.4,366,2.89

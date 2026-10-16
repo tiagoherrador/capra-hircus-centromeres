@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+Kor2,GCA_059055555.1,ASM5905555v1,Chromosome,Korean native black goat,male,Chungnam National University,PacBio Revio,86.8,580,2.78

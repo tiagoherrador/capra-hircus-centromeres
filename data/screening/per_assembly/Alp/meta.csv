@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+Alp,GCA_044587945.1,ASM4458794v1,Chromosome,ALPINE Milk Goat,female,Northwest A&F University,PacBio Sequel,67.6,204,3.02

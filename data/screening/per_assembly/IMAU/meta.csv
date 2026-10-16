@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+IMAU,GCA_040822015.1,ASM4082201v1,Chromosome,Inner Mongolia Cashmere goat,male,Inner Mongolia Agricultural University,PacBio RSII; Oxford Nanopore PromethION,95.2,31,2.76

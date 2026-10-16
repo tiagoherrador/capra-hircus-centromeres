@@ -1,0 +1,22 @@
+label,accession,breed,sex,institution,level,contig_n50_Mb,sequences,chromosome_like_sequences,T2T_chromosomes_covered,detected,complete,resolved,low_satellite,median_cen_Mb,median_sat_vs_T2T,SatI_Mb,SatII_Mb,SatIII_Mb,end_L,end_R,unplaced_sequences,unplaced_Mb,unplaced_satellite_Mb,units_not_in_T2T
+T2T (ref),,,,,,,,30.0,30.0,30.0,30.0,30.0,0.0,7.14,,117.3,26.3,6.4,,,,,,
+KikoP,GCA_057428595.1,Kiko x Saanen,female,University of Idaho,Chromosome,106.3,33.0,30.0,30.0,30.0,30.0,29.0,0.0,7.83,1.08,131.5,29.5,5.2,16.0,14.0,3.0,0.26,0.01,1.0
+SaanenM,GCA_057428545.1,Kiko x Saanen,female,University of Idaho,Chromosome,115.1,36.0,30.0,30.0,30.0,29.0,27.0,0.0,7.71,1.04,127.4,31.5,6.1,16.0,14.0,7.0,0.93,0.58,2.0
+Alp,GCA_044587945.1,ALPINE Milk Goat,female,Northwest A&F University,Chromosome,67.6,204.0,30.0,30.0,28.0,21.0,17.0,3.0,4.11,0.62,74.4,13.3,3.9,29.0,1.0,174.0,271.97,204.97,0.0
+Tib1,GCA_046464075.1,Tibetan Goat,female,Northwest A&F University,Chromosome,97.6,90.0,30.0,30.0,29.0,25.0,15.0,1.0,4.75,0.7,89.0,13.2,4.9,29.0,1.0,60.0,148.08,104.46000000000001,0.0
+Tib3,GCA_049004405.1,Tibetan Goat,female,Northwest A&F University,Chromosome,91.1,87.0,30.0,30.0,28.0,18.0,13.0,0.0,6.98,1.01,128.9,22.3,4.3,28.0,2.0,57.0,49.81,35.54,0.0
+Hain1,GCA_047671635.1,Hainan black Goat,female,Northwest A&F University,Chromosome,94.8,149.0,30.0,30.0,29.0,20.0,11.0,2.0,3.39,0.57,67.3,6.2,5.7,29.0,1.0,119.0,168.96,133.59,0.0
+IMAU,GCA_040822015.1,Inner Mongolia Cashmere goat,male,Inner Mongolia Agricultural University,Chromosome,95.2,31.0,30.0,30.0,28.0,26.0,10.0,1.0,1.83,0.35,57.6,5.3,3.8,17.0,13.0,0.0,0.0,0.0,0.0
+Tib2,GCA_049004455.1,Tibetan Goat,female,Northwest A&F University,Chromosome,94.1,131.0,30.0,30.0,25.0,15.0,9.0,2.0,3.33,0.36,67.2,12.8,1.8,25.0,5.0,101.0,52.64,39.67,0.0
+SEQ,GCA_984506535.1,ALPINE,male,EBI,Scaffold,91.0,213.0,30.0,30.0,28.0,11.0,9.0,2.0,7.08,1.03,121.6,20.3,6.5,17.0,13.0,183.0,79.95,48.620000000000005,1.0
+Shanbei,GCA_044509215.1,Shanbei Cashmere Goat,female,Northwest A&F University,Chromosome,87.1,227.0,30.0,30.0,26.0,19.0,7.0,2.0,1.43,0.16,47.6,6.2,3.1,26.0,4.0,197.0,181.01,144.28,1.0
+Kor2,GCA_059055555.1,Korean native black goat,male,Chungnam National University,Chromosome,86.8,580.0,29.0,29.0,23.0,15.0,5.0,2.0,0.51,0.06,26.8,3.3,2.8,16.0,13.0,551.0,264.56,170.83999999999997,0.0
+Kor4,GCA_057556445.1,Korean native black goat,male,Chungnam National University,Chromosome,83.4,412.0,29.0,29.0,27.0,16.0,5.0,4.0,0.87,0.07,44.1,5.6,3.2,16.0,13.0,383.0,225.24,141.73999999999998,0.0
+KoreanBG,GCA_059055625.1,Korean native black goat,male,Chungnam National University,Chromosome,86.3,162.0,29.0,29.0,21.0,14.0,4.0,5.0,0.62,0.04,20.2,2.8,2.9,16.0,13.0,133.0,280.44,109.35,0.0
+Kor3,GCA_057557635.1,Korean native black goat,male,Chungnam National University,Chromosome,83.8,161.0,29.0,29.0,20.0,13.0,3.0,2.0,0.66,0.06,32.0,2.9,2.9,17.0,12.0,132.0,299.4,122.62,0.0
+Hain2,GCA_048594055.1,Hainan black Goat,female,Northwest A&F University,Chromosome,44.8,216.0,30.0,30.0,27.0,13.0,3.0,5.0,1.21,0.11,52.2,4.9,5.3,30.0,0.0,186.0,158.99,128.04000000000002,0.0
+Shan1,GCA_049004675.1,Shannan White Goat,female,Northwest A&F University,Chromosome,63.0,346.0,30.0,30.0,24.0,10.0,1.0,1.0,0.5,0.07,36.9,7.3,3.2,27.0,3.0,316.0,143.41,118.12,0.0
+Shan2,GCA_049004595.1,Shannan White Goat,female,Northwest A&F University,Chromosome,56.8,300.0,30.0,30.0,24.0,12.0,1.0,2.0,0.53,0.07,35.1,4.7,3.1,28.0,2.0,270.0,158.54,130.47,0.0
+Guan,GCA_044588015.1,Guanzhong Milk Goat,female,Northwest A&F University,Chromosome,79.4,366.0,30.0,30.0,25.0,15.0,1.0,1.0,0.7,0.08,22.9,2.8,3.3,28.0,2.0,336.0,219.77,175.89000000000001,1.0
+Nubi,GCA_044587935.1,Nubian Goat,female,Northwest A&F University,Chromosome,72.1,922.0,30.0,30.0,21.0,9.0,0.0,1.0,0.38,0.05,5.0,2.4,2.2,27.0,3.0,892.0,212.03,173.57999999999998,1.0
+ARS,GCA_001704415.2,San Clemente,male,USDA ARS,Chromosome,26.2,29885.0,29.0,29.0,2.0,0.0,0.0,6.0,0.08,0.0,0.8,0.0,0.1,14.0,15.0,29856.0,456.41,197.54,0.0

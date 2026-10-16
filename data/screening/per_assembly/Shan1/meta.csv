@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+Shan1,GCA_049004675.1,ASM4900467v1,Chromosome,Shannan White Goat,female,Northwest A&F University,PacBio Sequel,63.0,346,2.84

@@ -18,3 +18,7 @@ jupyter.out
 work
 tools
 data/raw_ncbi
+
+# Regenerable per-assembly files of the screening (large)
+data/screening/per_assembly/*/annotation_ends.csv
+data/screening/per_assembly/*/sequences.csv

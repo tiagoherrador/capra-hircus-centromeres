@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+Tib1,GCA_046464075.1,ASM4646407v1,Chromosome,Tibetan Goat,female,Northwest A&F University,PacBio Sequel,97.6,90,2.9

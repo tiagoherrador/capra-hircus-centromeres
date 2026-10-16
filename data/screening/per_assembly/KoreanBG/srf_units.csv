@@ -1,0 +1,10 @@
+hap,id,length,family,kmer_share_in_T2T
+KoreanBG,KoreanBG#circ1-703,703,SatII,0.63
+KoreanBG,KoreanBG#circ2-132,132,SatIII,1.0
+KoreanBG,KoreanBG#circ3-132,132,SatIII,1.0
+KoreanBG,KoreanBG#circ4-6,6,other,0.0
+KoreanBG,KoreanBG#circ5-4067,4067,SatI,1.0
+KoreanBG,KoreanBG#circ6-132,132,SatIII,1.0
+KoreanBG,KoreanBG#circ7-22,22,SatIII,1.0
+KoreanBG,KoreanBG#circ8-34,34,other,0.0
+KoreanBG,KoreanBG#circ9-39,39,other,0.0

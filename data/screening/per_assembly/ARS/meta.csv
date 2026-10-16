@@ -1,0 +1,2 @@
+label,accession,name,level,breed,sex,institution,tech,contig_n50_Mb,sequences,total_Gb
+ARS,GCA_001704415.2,ARS1.2,Chromosome,San Clemente,male,USDA ARS,PacBio,26.2,29885,2.92
