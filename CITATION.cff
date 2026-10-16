@@ -17,4 +17,4 @@ abstract: >-
   A personal portfolio case study that analyses the centromeric satellite DNA of the
   telomere-to-telomere goat genome (Wu et al. 2024): scaling of centromere length with
   chromosome size, satellite composition, differences between haplotypes, and
-  exploratory variation between breeds. Code under MIT; text and figures under CC BY 4.0.
+  exploratory variation between breeds. It was then extended to a second animal after screening 20 public assemblies. Code under MIT; text and figures under CC BY 4.0.
