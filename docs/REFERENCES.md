@@ -1,6 +1,6 @@
 # References
 
-Key references used in the notebook and in the notes. Entries without a DOI could not be confirmed in a bibliographic database; this is a personal portfolio project and the list prioritises the sources that matter most for the conclusions.
+These are the key references I used in the notebooks and the notes. I could not confirm the entries without a DOI in a bibliographic database. Since this is a personal portfolio project, the list prioritises the sources that matter most for my conclusions.
 
 ## Data and the goat genome
 - Wu H, Luo LY, Zhang YH, et al. Telomere-to-telomere genome assembly of a male goat reveals variants associated with cashmere traits. *Nat Commun* 15:10041 (2024). https://doi.org/10.1038/s41467-024-54188-z
