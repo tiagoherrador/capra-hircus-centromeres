@@ -1,7 +1,7 @@
 # Centromeric heterochromatin of *Capra hircus*
 ### A sequence-based case study with public data
 
-> This is a personal portfolio and practice project. It is not peer reviewed and it is not a research article, so please read the [things to keep in mind](#things-to-keep-in-mind) before taking any number too seriously. I built it with the help of an AI coding assistant (Claude Code), and I reviewed the decisions and the results myself.
+> **Personal research project, not peer reviewed.** Please read [Things to keep in mind](#things-to-keep-in-mind) before taking any number too seriously.
 
 ## What this project is
 
